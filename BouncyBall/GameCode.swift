@@ -63,7 +63,7 @@ fileprivate func setupFunnel() {
     scene.add(funnel)
     funnel.onTapped = dropBall
     funnel.fillColor = .gray
-    circle.isDraggable = false
+    funnel.isDraggable = false
 }
 
 //Cambiar nombre a addBarrier
